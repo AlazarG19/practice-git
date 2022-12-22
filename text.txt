@@ -1,4 +1,4 @@
 the first line of the text
-this is the second line of the text
+this is the second line of the text changed first
 this is the third line of text
 this is the fourth line of text
