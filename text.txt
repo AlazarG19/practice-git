@@ -1,7 +1,0 @@
-the first line of the text
-this is the second line of the text changed second OK
-this is the third line of text
-this is the fourth line of text
-
-This is the text added to new branch
-this is the sixth line of text
