@@ -4,3 +4,4 @@ this is the third line of text
 this is the fourth line of text
 
 This is the text added to new branch
+this is the sixth line of text
