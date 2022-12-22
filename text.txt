@@ -1,1 +1,2 @@
 the first line of the text
+this is the second line of the text
