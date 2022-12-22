@@ -1,8 +1,4 @@
 the first line of the text
-<<<<<<< HEAD
-this is the second line of the text changed second
-=======
 this is the second line of the text changed first
->>>>>>> 6d1719adb4d5238b9aa6b9ccfb55e7ec9568ca50
 this is the third line of text
 this is the fourth line of text
