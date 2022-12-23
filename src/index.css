@@ -1,0 +1,242 @@
+body{
+  overflow-x: hidden;
+}
+.container-fluid{
+  height:100vh;
+}
+.nav-height{
+  height: 84px;
+}
+.intro{
+  position: absolute;
+  height: 268px;
+  width: 100vw;
+  top: 83px;
+  left: 0;
+}
+.introimg{
+  position:absolute;
+  width:100vw;
+  height: 268px;
+}
+.introimg img{
+  height:100%;
+  width:100%;
+}
+.introtext{
+  position: absolute;
+  color: white;
+  height: 86%;
+  left: 17.15%;
+  top: 25.6%;
+  font-family: 'Poppins', 'Helvetica', 'sans-serif';
+}
+.introtext h1{
+  font-size: 48px;
+  margin-bottom: 0;
+  font-weight: 700;
+  color: #fff;
+}
+.introtext p{
+  margin-top: 10px;
+  font-family: 'Poppins', 'Helvetica', 'sans-serif';
+  font-weight: 400;
+  line-height: 14px;
+}
+.cont-margin{
+  margin-top: 24rem;
+}
+.imgcont{
+  width: 100%;
+  height:auto;
+}
+
+.sidebar{
+  flex: 0 0 25%;
+  max-width: 23%;
+  margin-left: -4px;
+}
+.recentPostCont{
+  width: 170%;
+  border-radius: 20px;
+  padding: 32px 40px;
+  border: 1px solid rgb(163, 163, 163);
+}
+.recentPostCont h2{
+  font-family: 'Poppins', 'Helvetica', 'sans-serif';
+  font-weight: 700;
+  margin-bottom:43px;
+}
+.recentbox{
+  margin-bottom:16px;
+}
+.thumbnailbox{
+  display:flex;
+  justify-content: center;
+}
+
+.cardmodification{
+  width: 53.4rem;
+  margin-top: 1px;
+  border-radius: 14px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card-img-top {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.boxmodify{
+  margin-top:100px;
+}
+.recentimagemodification{
+  width: 85px;
+  height: 68px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.margintop{
+  margin-top: -20px;
+}
+.btnmodify{
+  display: inline-block;
+  padding: 10px 50px;
+  color: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 1px solid;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  -webkit-transition: all .3s ease 0s;
+  -o-transition: all .3s ease 0s;
+  transition: all .3s ease 0s;
+  vertical-align: middle;
+}
+
+.blockquote{
+  background: #f8fafb;
+  padding-left: 60px;
+  position: relative;
+  padding: 20px 30px;
+  border-radius: 15px;
+}
+blockquote p {
+  font-size: 24px;
+  color: #4a6375;
+  font-weight: 500;
+  line-height: 35px;
+}
+.viewblog h3{
+  font-family: Poppins;
+  font-weight: 700;
+  font-style: normal;
+  color: #333333;
+  word-wrap: break-word;
+  margin-top: 30px;
+  margin-bottom: 26px;
+}
+.tagcontainer button{
+  padding: 5px 15px;
+  background: #f8fafb;
+  border-radius: 50px;
+  margin-right: 5px;
+  display: inline-block;
+  font-size: 14px;
+  color: #4a6375!important;
+  margin-top:16px;
+  margin-bottom: 50px;
+  border:none;
+}
+.tagcontainer button:hover{
+  color: #fff!important;
+  background-color: #6787FE;
+  cursor: pointer;
+}
+.viewblogimgcont{
+  margin-top:30px;
+  margin-bottom:30px;
+}
+.paging{
+  display:flex;
+  text-align: center;
+  justify-content: center;
+  height:60px;
+  width:75%;
+  margin-top:100px;
+}
+.paginationactive{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding:auto;
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+  margin:0 5px;
+  background-color: #6787FE;
+  color: white;
+}
+.paging .circle{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding:auto;
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+  margin:0 5px;
+  background-color: #f8fafb;
+  color:#6787FE;
+}
+.paging .circle:hover{
+  cursor: pointer;
+  background-color: #6787FE;
+  color: white;
+}
+.nxtbtn{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:100px;
+  border-radius: 40px;
+  background-color: #f8fafb;
+  color:#6787FE;
+  height:50px;    
+  padding: 0 8px;
+}
+.nxtbtn:hover{
+  cursor: pointer;
+  background-color: #6787FE;
+  color: white;
+}
+.catlinks li:hover{
+  cursor: pointer;
+  color: #6787FE
+}
+.sidebar-header li{
+  margin: 20px 0;
+}
+.tagcont{
+  height: 33px;
+  width: fit-content;
+  padding: 0 18px;
+  padding-top: 10px;
+}
+
+@media(max-width:1200px){
+  .sidebar {
+      flex: 0 0 100%;
+      max-width: 62%;
+      margin-left: 0;
+      margin-top: 100px;
+  }
+}
+
+@media(max-width:1150px){
+  .blogcontainer{
+    width:100%;
+  }
+  .cardmodification{
+    width:100%;
+  }
+}
